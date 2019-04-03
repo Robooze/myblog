@@ -25,7 +25,10 @@ SECRET_KEY = '1g*vja!=-!2mc)!gg)@o0!=!epwu*(@2q%2@1)2^6((ze4u04f'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['robooze.eu.pythonanywhere.com',]
+ALLOWED_HOSTS = [
+    'robooze.eu.pythonanywhere.com',
+    'localhost',
+]
 
 
 # Application definition
