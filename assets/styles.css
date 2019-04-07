@@ -32,8 +32,13 @@ div.wrapper h1{
 
 header{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     padding: 20px 0;
+}
+
+a.bio{
+    text-align: center;
+    font-size: 2.0em;
 }
 
 nav{
