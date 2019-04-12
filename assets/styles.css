@@ -149,3 +149,19 @@ a.highlight{
     border-radius: 4px;
     margin: 10px 0;
 }
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px 0;
+    text-align:center;
+}
+
+
+footer.wrapper{
+    margin-top: 50px;
+}
+
+footer a{
+    color: gray;
+}
