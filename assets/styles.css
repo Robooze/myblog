@@ -59,6 +59,7 @@ nav button{
 }
 
 .articles{
+    margin-top: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 30px;
@@ -171,6 +172,7 @@ footer a{
 
 .about_page img{
     display: block;
+    margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 100px;
