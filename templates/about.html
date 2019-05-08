@@ -1,8 +1,16 @@
 {% extends 'base_layout.html' %}
+{% load static from staticfiles %}
 
 {% block content %}
     <div class="about_page">
         <h1>About Me</h1>
-        <p>My name is Roberto. This page will be updated later on... ^^</p>
+        <img src="{% static 'about_photo.jpg' %}" alt="me"/>
+        <p>
+            Welcome onboard, brave cosmonaut! My name is Roberto and I am a 24 years old earthling from Presezzo, Italy.
+            This is my pretty blog where I post random articles about my life and interests. Hope you have a pleasant stay!
+        </p>
+        <p>
+            Oh, and by the way! Feel free to come by and post articles yourself. :D
+        </p>
     </div>
 {% endblock %}
